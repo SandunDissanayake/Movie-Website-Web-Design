@@ -1,0 +1,166 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: #ffffff;
+    line-height: 1.6;
+    height: 100%;
+}
+
+/* Navigation Bar */
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #171717;
+    padding: 22px 5% 15px 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: fixed;
+}
+
+nav .logo h1 {
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav .logo span {
+    color: #ffe100;
+    margin-left: 8px;
+    text-decoration: underline;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 7px;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    color: #ffe100;
+}
+
+/* Contact Us Section */
+.contact-us {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-us h2 {
+    font-size: 2.5rem;
+    color: #ffe100;
+    margin-bottom: 20px;
+}
+
+.contact-us p {
+    font-size: 1.1rem;
+    color: whitesmoke;
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #222;
+    color: whitesmoke;
+    font-size: 1rem;
+    outline: none;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #888;
+}
+
+.contact-form button {
+    padding: 15px 30px;
+    background-color: #ffe100;
+    border: none;
+    border-radius: 5px;
+    color: #111;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #fff;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 100px;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(about.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Footer Section */
+footer {
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    color: #ffe100;
+    font-size: 1.5rem;
+}
+
+footer .social-media a:hover {
+    color: #ffffff;
+}
+
+footer p {
+    margin-top: 10px;
+    color:#ffffff;
+}
+
+footer span {
+    font-style: italic;
+    color:#ffe100 ;
+}

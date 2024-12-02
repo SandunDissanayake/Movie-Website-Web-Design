@@ -1,0 +1,190 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+section{
+    width: 100%;
+    height: 9vh;
+    background: #171717;
+}
+
+section nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 5% 8px 5%;
+    margin-bottom: 20px;
+    background: #171717;
+    
+}
+
+section nav .logo h1{
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
+section nav .logo h1 span{
+    color: #ffe100;
+    margin-left: 8px;
+    text-decoration: underline;
+}
+
+section nav .right ul{
+    list-style: none
+}
+
+section nav .right ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+section nav .right ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+section nav .right ul li a:hover{
+    color: #ffe100;
+}
+
+
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(about.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Ensure main content grows to fill the available space */
+.container {
+    flex-grow: 1;
+    background-color: #171717;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+
+h1 {
+    font-size: 26px;
+    color: #ffe100;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 15px;
+    color: whitesmoke;
+    margin-bottom: 25px;
+    line-height: 1.7;
+}
+
+.email-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+    background-color: #f1f1f1;
+    padding: 10px 20px;
+}
+
+.email-box i {
+    color: #ffe100;
+    font-size: 18px;
+}
+
+.tbox {
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+
+.btn {
+    background-color: #ffe100;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #c85f57;
+}
+
+.end {
+    margin-top: 20px;
+    font-size: 14px;
+    color: whitesmoke;
+}
+
+.end span {
+    font-weight: bold;
+    color: black;
+}
+.end span i{
+    margin: 0 8px;
+  }
+
+.end i {
+    font-style: italic;
+    color: #ffe100;
+}
+
+/* Styling for Navigation Bar */
+
+
+
+/* Footer styling */
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    margin-top: auto;
+}
+
+footer .end {
+    font-size: 16px;
+}
+
+footer span i {
+    font-style: normal;
+    color: #ffe100;
+}
